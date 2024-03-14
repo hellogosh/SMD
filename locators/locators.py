@@ -1,5 +1,3 @@
-
-
 from selenium.webdriver.common.by import By
 
 
@@ -14,7 +12,7 @@ class locators():
     REQUEST_FOR_SERVICE_BUTTON = (By.XPATH, '//a[contains(text(), "Запрос на обслуживание")]')
 
     INITIATOR_INPUT = (By.ID, 'X6')
-    CONTACT_NAME_INPUT = (By.ID, 'X12')
+    INITIATOR_DROP_DOWN = (By.XPATH, '//*[@id="X6Popup_0_0"]')
     CONTACT_NUMBER_INPUT = (By.ID, 'X21')
     NAME_OF_SERVICE_INPUT = (By.ID, 'X47')
     SHORT_DESCRIPTION_INPUT = (By.ID, 'X63')
@@ -26,9 +24,6 @@ class locators():
     ESCALATION_BUTTON = (By.XPATH, '//button[contains(text(), "Выполнить эскалацию")]')
     CREATE_NEW_ZNO_BUTTON = (By.XPATH, '//button[contains(text(), "Создание нового запроса")]')
     SAVE_BUTTON_ZNO = (By.XPATH, '//button[contains(text(), "Сохранить и выйти")]')
-
-
-
 
 
 

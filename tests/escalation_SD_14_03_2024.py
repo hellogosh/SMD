@@ -41,6 +41,7 @@ def test_check_time_of_escalation(driver):
         employee = 'ПАНТЮХОВ ГЕОРГИЙ (PANTYUKHOV.GS)'
 
 
+
         #Шаг 1: Открыть стартовую страницу
         page = SdPage(driver, link)
         page.open()
